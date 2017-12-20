@@ -1,0 +1,56 @@
+@import "variables";
+@import "mixins";
+
+
+/*--- GRID
+------------------------------*/
+body {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  
+}
+/*--- END GRID
+------------------------------*/
+
+
+
+/*--- HEADER
+------------------------------*/
+.header {
+  flex-shrink: 0;
+}
+/*--- END HEADER
+------------------------------*/
+
+
+
+/*--- MIDDLE CONTENT
+------------------------------*/
+.middle {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+// MAIN CONTENT
+.main {
+
+}
+
+// SIDEBAR
+.sidebar {
+  
+}
+/*--- END MIDDLE CONTENT
+------------------------------*/
+
+
+
+/*--- FOOTER
+------------------------------*/
+.footer {
+  flex-shrink: 0;
+}
+/*--- END FOOTER
+------------------------------*/

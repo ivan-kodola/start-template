@@ -1,0 +1,37 @@
+﻿Якщо Gulp вже стоїть глобально і приклад з pachege.json - по просто копіюєш вміст папки з прикладом і виконуєш команду:
+npm install
+
+
+
+
+Налаштування проекту:
+1. Створюємо паку проету і переходимо в неї;
+2. npm init - створюємо package.json
+3. Встановлюємо Gulp
+
+Перелік плагінів для gulp/
+
+1) npm install --global gulp  // встановити gulp глобально, якщо вже встановлено, то пункт 2
+2) npm install --save-dev gulp // встановити gulp локально, в папку з проектом
+3) встановити у папку з проектом наступні плагіни:
+
+одна команда для всіх: 
+npm install gulp gulp-watch gulp-notify browser-sync gulp-html-import gulp-sass gulp-autoprefixer gulp-clean-css gulp-rename gulp-uncss gulp-imagemin gulp-uglyfly --save-dev
+
+
+Список:
+npm install --save-dev gulp-watch
+npm install --save-dev gulp-notify
+npm install browser-sync --save-dev
+npm install gulp-html-import --save-dev
+npm install gulp-sass --save-dev
+npm install --save-dev gulp-autoprefixer
+npm install gulp-clean-css
+npm install gulp-rename
+npm install gulp-uncss --save-dev
+npm install --save-dev gulp-imagemin
+npm install --save-dev gulp-uglyfly  
+npm install --save-dev gulp-clean
+
+
+
