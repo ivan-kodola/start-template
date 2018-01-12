@@ -13,14 +13,14 @@ var gulp = require('gulp'),
     clean = require('gulp-clean');
 
 var config = {
-    server: {
-      baseDir: "./public"
-    },
-    tunnel: true,
-    host: 'localhost',
-    port: 9000,
-    files: 'public/**/*.*',
-    logPrefix: "Frontend_Devil"
+  server: {
+    baseDir: "./public"
+  },
+  tunnel: true,
+  host: 'localhost',
+  port: 9000,
+  files: 'public/**/*.*',
+  logPrefix: "Frontend_Devil"
 };
 
 var paths = {
